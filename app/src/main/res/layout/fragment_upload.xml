@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="32dp"
+        tools:context=".ui.fragments.UploadFragment">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvFileToSaveTitle"
+            style="@style/AppStandardText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/file_to_save_semicolon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvFileToSave"
+            style="@style/AppStandardText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/nothing_selected_yet"
+            app:layout_constraintStart_toEndOf="@+id/tvFileToSaveTitle"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSelectFile"
+            style="@style/LightRedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/select_file"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvFileToSave" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvFileNameTitle"
+            style="@style/AppStandardText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_of_file_semicolon"
+            app:layout_constraintBottom_toBottomOf="@+id/etNameOfFile"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/etNameOfFile" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etNameOfFile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:hint="@string/enter_name"
+            app:layout_constraintStart_toStartOf="@+id/tvFileToSave"
+            app:layout_constraintTop_toBottomOf="@+id/btnSelectFile" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnUpload"
+            style="@style/LightRedButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/upload"
+            app:layout_constraintTop_toBottomOf="@+id/etNameOfFile" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

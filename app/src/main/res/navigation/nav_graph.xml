@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.artgram.ui.fragments.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_imagesByNicknameFragment"
+            app:destination="@id/imagesByNicknameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.artgram.ui.fragments.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_authActivity"
+            app:destination="@id/authActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/uploadFragment"
+        android:name="com.example.artgram.ui.fragments.UploadFragment"
+        android:label="@string/upload"
+        tools:layout="@layout/fragment_upload" />
+    <activity
+        android:id="@+id/authActivity"
+        android:name="com.example.artgram.ui.activities.AuthActivity"
+        android:label="AuthActivity" />
+    <fragment
+        android:id="@+id/imagesByNicknameFragment"
+        android:name="com.example.artgram.ui.fragments.ImagesByNicknameFragment"
+        android:label="ImagesByNicknameFragment" />
+</navigation>

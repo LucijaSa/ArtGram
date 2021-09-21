@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\Luka\\Desktop\\artgram\\ArtGram\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_images_by_nickname.xml",
+        "source": "C:\\Users\\Luka\\Desktop\\artgram\\ArtGram\\app\\src\\main\\res\\layout\\fragment_images_by_nickname.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luka\\Desktop\\artgram\\ArtGram\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_registration.xml",
+        "source": "C:\\Users\\Luka\\Desktop\\artgram\\ArtGram\\app\\src\\main\\res\\layout\\fragment_registration.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luka\\Desktop\\artgram\\ArtGram\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_upload.xml",
+        "source": "C:\\Users\\Luka\\Desktop\\artgram\\ArtGram\\app\\src\\main\\res\\layout\\fragment_upload.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luka\\Desktop\\artgram\\ArtGram\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\Luka\\Desktop\\artgram\\ArtGram\\app\\src\\main\\res\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luka\\Desktop\\artgram\\ArtGram\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\Luka\\Desktop\\artgram\\ArtGram\\app\\src\\main\\res\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luka\\Desktop\\artgram\\ArtGram\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_login.xml",
+        "source": "C:\\Users\\Luka\\Desktop\\artgram\\ArtGram\\app\\src\\main\\res\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luka\\Desktop\\artgram\\ArtGram\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Luka\\Desktop\\artgram\\ArtGram\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Luka\\Desktop\\artgram\\ArtGram\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\layout_image_item.xml",
+        "source": "C:\\Users\\Luka\\Desktop\\artgram\\ArtGram\\app\\src\\main\\res\\layout\\layout_image_item.xml"
+    }
+]
